@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.formContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #7b68ee;
+    outline: none;
+}
+
+form p {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+button[name="regBtn"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #7b68ee;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button[name="regBtn"]:hover {
+    background-color: #5a54c3;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: skyblue;
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
